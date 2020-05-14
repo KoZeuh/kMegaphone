@@ -5,8 +5,9 @@ Megaphone intégré dans les véhicules de police en RageUI
 
 🔒 Dépendances:
 
-RageUI [Fourni]
-InteractSoundS [Fourni]
+    RageUI [Fourni]
+    InteractSoundS [Fourni]
+
 
 ⚙️ Comment l'installer?
 
