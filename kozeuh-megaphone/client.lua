@@ -1,5 +1,5 @@
 print("^2[Author - ^1koz-megaphone ] : ^3KoZeuh")
-print("^2[Download] :^3 https://github.com/KoZeuh/") -- a changer
+print("^2[Download] :^3 https://github.com/KoZeuh/") 
 ESX = nil
 
 Citizen.CreateThread(function()
