@@ -29,4 +29,4 @@ https://streamable.com/8wi9dy
 
 🔖 Copyright
 
-koz-megaphone - Copyright (C) 2020 KoZeuh
+koz-megaphone - Copyright (C) 2020 KoZeuh 
