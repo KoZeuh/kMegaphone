@@ -33,7 +33,6 @@ function KozVehicule(using)
     end
   end
 end 
------------- Création du Menu / Sous Menu -----------
 
 RMenu.Add('megaphone', 'principal', RageUI.CreateMenu("LSPD", "~b~Mégaphone Vehicule LSPD", nil, nil, "commonmenu", "gradient_bgd")) 
 
