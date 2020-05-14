@@ -27,6 +27,8 @@ Megaphone intégré dans les véhicules de police en RageUI
 
 https://streamable.com/8wi9dy
 
-🔖 Copyright
 
-koz-megaphone - Copyright (C) 2020 KoZeuh 
+
+🔖 Copyright (C) 2020 KoZeuh 
+
+
