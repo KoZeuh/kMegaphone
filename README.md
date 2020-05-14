@@ -14,10 +14,10 @@ Megaphone intégré dans les véhicules de police en RageUI
     Une fois téléchargé, installez-les dans votre répertoire "resources"
     Ensuite mettez ceci dans votre fichier "server.cfg":
     
-start InteractSoundS
-start RageUI
-start koz-megaphone
-
+    start InteractSoundS
+    start RageUI
+    start kozeuh-megaphone
+    
 
     Un SQL (megaphone_item.sql) est disponible si vous souhaitez utiliser le mégaphone en tant qu'item utilisable,
     Pour modifier l'item a utilisé, rendez-vous dans le fichier "server.lua"
