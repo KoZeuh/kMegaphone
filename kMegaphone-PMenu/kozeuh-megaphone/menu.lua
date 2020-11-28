@@ -113,7 +113,7 @@ Citizen.CreateThread(function()
 			    if ESX.PlayerData.job.name == 'police' then
 				   CreateMenu(mobLSPDMenu)
 				else
-					ESX.ShowNotification('Vous devez être memebre de la LSPD') -- A ACTIVER SI JE LE RELEASE
+					ESX.ShowNotification('Vous devez être memebre de la LSPD') -- :')
 				end
 			end
 		end
