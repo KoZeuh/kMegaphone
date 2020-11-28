@@ -1,6 +1,7 @@
 print("^2[Author - ^1koz-megaphone ] : ^3KoZeuh")
 print("^2[Download] :^3 https://github.com/KoZeuh/") 
 ESX = nil
+local PlayerData = {}
 
 Citizen.CreateThread(function()
     while ESX == nil do
@@ -15,12 +16,12 @@ end)
   
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
-    ESX.PlayerData = xPlayer
+    PlayerData = xPlayer
 end)
  
 RegisterNetEvent('esx:setJob') 
 AddEventHandler('esx:setJob', function(job)  
-  ESX.PlayerData.job = job 
+  PlayerData.job = job 
 end)
 
 
@@ -98,7 +99,7 @@ Citizen.CreateThread(function()
             Citizen.Wait(0)
                     if IsControlJustPressed(1,51) then -- Touche E
                       if KozVehicule(GetVehiclePedIsUsing(GetPlayerPed(-1))) then -- Si le joueur est dans l'un des véhicules indiqué dans le config.lua
-                        if ESX.PlayerData.job.name == 'police' then -- Si le joueur est policier
+                        if PlayerData.job ~= nil and PlayerData.job.name == 'police' then -- Si le joueur est policier
                            RageUI.Visible(RMenu:Get('megaphone', 'principal'), not RageUI.Visible(RMenu:Get('megaphone', 'principal'))) 
                         else
                            ESX.ShowNotification('Vous devez être membre de la LSPD')
