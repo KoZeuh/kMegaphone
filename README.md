@@ -18,7 +18,7 @@ PMenu : Link not available </div>
 <h2 align='center'>⚙️ Comment l'installer? :</h2>
 <div align='center'>
 
-Extraire `kMegaphone` et copier `kozeuh-megaphone` et `kozeuh-megaphone` et `InteractSoundS` dans votre dossier `resources`<br></br>
+Extraire `kMegaphone` et copier `kozeuh-megaphone` et `RageUI` et `InteractSoundS` dans votre dossier `resources`<br></br>
 Ajouter `start InteractSoundS` et `start RageUI` et `start kozeuh-megaphone` dans votre `server.cfg`
 Ajouter le SQL `megaphone_item.sql` si vous souhaitez que le mégaphone s'ouvre via l'item
 
