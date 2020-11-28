@@ -19,7 +19,7 @@ PMenu : Link not available </div>
 <div align='center'>
 
 Extraire `kMegaphone` et copier `kozeuh-megaphone` et `RageUI` et `InteractSoundS` dans votre dossier `resources`<br></br>
-Ajouter `start InteractSoundS` et `start RageUI` et `start kozeuh-megaphone` dans votre `server.cfg`
+Ajouter `start InteractSoundS` et `start RageUI` et `start kozeuh-megaphone` dans votre `server.cfg`<br></br>
 Ajouter le SQL `megaphone_item.sql` si vous souhaitez que le mégaphone s'ouvre via l'item
 
     ---- CONFIG ----
@@ -30,7 +30,7 @@ Ajouter le SQL `megaphone_item.sql` si vous souhaitez que le mégaphone s'ouvre 
 <div align='center'>
 
 Extract `kMegaphone` and copy the `kozeuh-megaphone` and `RageUI` and `InteractSoundS` into your `resources` folder.<br></br>
-Add `start InteractSoundS` and `start RageUI` and `start kozeuh-megaphone` to your `server.cfg` file.
+Add `start InteractSoundS` and `start RageUI` and `start kozeuh-megaphone` to your `server.cfg` file.<br></br>
 Add SQL `megaphone_item.sql` to use it as an item
 
     ---- CONFIG ----
