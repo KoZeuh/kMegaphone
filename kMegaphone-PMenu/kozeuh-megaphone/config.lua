@@ -1,0 +1,21 @@
+Config = {}
+Config.Vehicles = {
+  'police',
+  'police2',
+  'police3',
+  'police4',
+  'police5',
+  'police6',
+  'police7',
+  'police8',
+  'fbi',
+  'fbi2',
+  'riot2',
+  'policet',
+  'sheriff',
+  'sheriff2',
+  'riot',
+  'pranger',
+  'polschafter3',
+  'policefelon',
+}
