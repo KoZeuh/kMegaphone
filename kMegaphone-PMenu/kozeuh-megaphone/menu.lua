@@ -1,4 +1,5 @@
 ESX = nil
+local PlayerData = {}
 
 Citizen.CreateThread(function()
 	while ESX == nil do
@@ -14,19 +15,13 @@ Citizen.CreateThread(function()
 end)
 
 RegisterNetEvent('esx:playerLoaded')
-  
 AddEventHandler('esx:playerLoaded', function(xPlayer)
-  
-    ESX.PlayerData = xPlayer
-  
+    PlayerData = xPlayer
 end)
   
 RegisterNetEvent('esx:setJob')
-  
 AddEventHandler('esx:setJob', function(job)
-  
-  ESX.PlayerData.job = job
-  
+  PlayerData.job = job
 end)
     
 function ShowInfo(text, state)
@@ -110,7 +105,7 @@ Citizen.CreateThread(function()
         Citizen.Wait(0)
 		if IsControlJustPressed(1,246) then
 			if vehicleType(GetVehiclePedIsUsing(GetPlayerPed(-1))) then
-			    if ESX.PlayerData.job.name == 'police' then
+			    if PlayerData.job ~= nil and PlayerData.job.name == 'police' then
 				   CreateMenu(mobLSPDMenu)
 				else
 					ESX.ShowNotification('Vous devez être memebre de la LSPD') -- :')
